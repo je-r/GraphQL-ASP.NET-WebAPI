@@ -45,11 +45,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GraphQL, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\GraphQL.2.4.0\lib\net45\GraphQL.dll</HintPath>
+    <Reference Include="GraphQL, Version=3.0.0.1558, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\GraphQL.dll</HintPath>
     </Reference>
-    <Reference Include="GraphQL-Parser, Version=5.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\GraphQL-Parser.5.1.0\lib\netstandard2.0\GraphQL-Parser.dll</HintPath>
+    <Reference Include="GraphQL-Parser, Version=5.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\GraphQL-Parser.dll</HintPath>
     </Reference>
     <Reference Include="GraphQL.NewtonsoftJson">
       <HintPath>lib\GraphQL.NewtonsoftJson.dll</HintPath>
@@ -196,6 +198,8 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="lib\GraphQL-Parser.dll" />
+    <Content Include="lib\GraphQL.dll" />
     <Content Include="lib\GraphQL.NewtonsoftJson.dll" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
