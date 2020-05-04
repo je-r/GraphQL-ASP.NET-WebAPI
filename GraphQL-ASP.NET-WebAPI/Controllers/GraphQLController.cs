@@ -17,6 +17,11 @@ namespace GraphQL_ASP.NET_WebAPI.Controllers
         private readonly IDocumentExecuter _executer;
         private readonly IDocumentWriter _writer;
 
+        public GraphQLController()
+        {
+
+        }
+
         public GraphQLController(
             IDocumentExecuter executer,
             IDocumentWriter writer,
