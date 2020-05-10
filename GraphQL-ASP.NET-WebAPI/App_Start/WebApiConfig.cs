@@ -10,6 +10,9 @@ namespace GraphQL_ASP.NET_WebAPI
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
+            var bootstrapper = new Bootstrapper();
+            config.DependencyResolver = bootstrapper.Resolver();
+
 
             // Web API routes
             config.MapHttpAttributeRoutes();

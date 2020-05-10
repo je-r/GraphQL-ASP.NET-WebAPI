@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL-ASP.NET-WebAPI", "GraphQL-ASP.NET-WebAPI.csproj", "{02DD192B-0156-4485-9066-1DCFA04EDC2D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars", "..\StarWars\StarWars.csproj", "{5DCD97CB-B228-4BF2-892E-0654E81FDCEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{02DD192B-0156-4485-9066-1DCFA04EDC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02DD192B-0156-4485-9066-1DCFA04EDC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02DD192B-0156-4485-9066-1DCFA04EDC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCD97CB-B228-4BF2-892E-0654E81FDCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCD97CB-B228-4BF2-892E-0654E81FDCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCD97CB-B228-4BF2-892E-0654E81FDCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCD97CB-B228-4BF2-892E-0654E81FDCEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
