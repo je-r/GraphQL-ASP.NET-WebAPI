@@ -6,7 +6,7 @@ based on example:
 
  how it works?
 
- open Chrome with GraphQL extension, open URL (for example local one in debug mode: https://localhost:44354/api/GraphQL) and issue this query:
+ open Chrome with GraphQL extension (from here: https://chrome.google.com/webstore/detail/graphql-playground-for-ch/kjhjcgclphafojaeeickcokfbhlegecd), open URL (for example local one in debug mode: https://localhost:44354/api/GraphQL) and issue this query:
 
 query foo { hero { id name appearsIn } }
 
