@@ -3,3 +3,4 @@ obj/
 *.suo
 packages/
 .vs/
+GraphQL-ASP.NET-WebAPI/.vs/GraphQL-ASP.NET-WebAPI/v16/.suo
