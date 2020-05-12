@@ -1,0 +1,12 @@
+
+query foo 
+{
+  human(id: "1") {
+    name  
+    friends { name id }    
+  }
+  droid(id:"3") {
+    name
+    primaryFunction
+  }
+}
