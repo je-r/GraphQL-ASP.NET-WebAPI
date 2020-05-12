@@ -26,6 +26,7 @@ and the answer will be:
   }
 }
 
- 
+more queries can be found in graphql files in the source of this repository!
+
  note: Star Wars selected as data not only because it is widely known but because official website of GraphQL uses it in query examples: 
  https://graphql.org/learn/queries/
